@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>자바스크립트 공부</title>
+</head>
+<body>
+    <form class="hidden" id="login-form">
+        <input required maxlength="5" type="text" placeholder="당신의 이름은 무엇입니까?"/>
+        <input type="submit" value="Log in"/>
+    </form>
+    <h2 id="clock"></h2>
+    <h1 class="hidden" id="greeting"></h1>
+    <form class="hidden" id="todo-form">
+        <input type="text" placeholder="리스트를 작성하고 엔터를 누르세요"/>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="js/quotes.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
